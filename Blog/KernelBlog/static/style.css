@@ -1,0 +1,32 @@
+#id_DATA {
+    color: red;
+    font-family: Verdana;
+    font-size: 20;
+}
+
+.orange-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-left: 10px solid #ff8800;
+  color: #ffffff;
+}
+
+.green-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-left: 10px solid #00ff00;
+  color: #ffffff;
+}
+
+.p-20 {
+  padding: 20px;
+
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}

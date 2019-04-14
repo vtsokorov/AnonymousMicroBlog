@@ -1,0 +1,6 @@
+/.idea
+/distr
+/venv
+/Blog/Blog/__pycache__/*.pyc
+/Blog/KernelBlog/__pycache__/*.pyc
+/cmd.txt
