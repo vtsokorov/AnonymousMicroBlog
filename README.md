@@ -6,4 +6,7 @@ How to run project:
 3. Create empty project in PyCharm using virtualenv. Set the project path in the created directory
 4. Install django~=2.2
 5. Install mysqlclient~=1.4.2
+6. Run MySql server
+7. Execute - python manage.py makemigrations
+8. Execute  - python manage.py migrate
 6. Run server - python manage.py runserver
