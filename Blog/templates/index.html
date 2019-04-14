@@ -10,9 +10,9 @@
   <script type="text/javascript" src="{% static 'moment.js'%}"></script>
 
  </head>
- <body class="text-danger p-3 mb-2 bg-secondary">
+ <body class="text-danger p-3 mb-2 bg-dark">
 
- <div class="text-center font-weight-bold h1">{{ blogtitle }}</div>>
+ <div class="text-center font-weight-bold h1">{{ blogtitle }}</div>
 
  <div class="container-fluid">
     <div class="row">
@@ -22,7 +22,7 @@
               <div class="form-group">
                   <div class="font-weight-bold"> {{ form.as_p }}</div>
                   <div class="text-center">
-                  <button type="submit" class="btn btn-warning">Отправить</button>
+                  <button type="submit" class="btn bg-danger">Отправить</button>
                   </div>
               </div>
           </form>
@@ -31,9 +31,9 @@
 
           <div class="container-fluid">
               {% for item in data %}
-              <div class="row card m-b-10 p-20 bg-dark">
-                <div class="orange-line"></div>
-                <div class="col-md-8">
+              <div class="row card m-b-10 p-20 bg-card">
+                <div class="line"></div>
+                <div class="col-md-12">
                 <div class="font-weight-bold"> {{ item.DATA }}</div>
                     Время: <span class="time">  {{ item.CURRENTDATE }} </span>
                 </div>

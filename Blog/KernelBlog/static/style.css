@@ -4,27 +4,23 @@
     font-size: 20;
 }
 
-.orange-line {
+.line {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  border-left: 10px solid #ff8800;
-  color: #ffffff;
-}
-
-.green-line {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  border-left: 10px solid #00ff00;
-  color: #ffffff;
+  border-left: 10px solid #E0A800;
+  color: #E0A800;
 }
 
 .p-20 {
   padding: 20px;
 
+}
+
+.bg-card
+{
+    background-color: #EEEDEF;
 }
 
 .m-b-10 {
