@@ -1,4 +1,5 @@
 How to run project:
+
 0. Create and enter the directory 
 1. Run git bash
 2. Execute the command: git clone https://github.com/vtsokorov/AnonymousMicroBlog.git
