@@ -8,5 +8,6 @@ How to run project:
 5. Install mysqlclient~=1.4.2
 6. Run MySql server
 7. Execute - python manage.py makemigrations
-8. Execute  - python manage.py migrate
-6. Run server - python manage.py runserver
+8. Execute - python manage.py migrate
+9. Or instead of the previous 2 steps execute - mysql -u <user> -p blogdb < blogdb.sql	
+10. Run server - python manage.py runserver
