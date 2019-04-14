@@ -9,5 +9,5 @@ How to run project:
 6. Run MySql server
 7. Execute - python manage.py makemigrations
 8. Execute - python manage.py migrate
-9. Or instead of the previous 2 steps execute - mysql -u <user> -p blogdb < blogdb.sql	
+9. Or instead of the previous 2 steps execute - mysql -u root -p blogdb < blogdb.sql	
 10. Run server - python manage.py runserver
