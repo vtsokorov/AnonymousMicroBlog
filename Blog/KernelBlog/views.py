@@ -20,7 +20,7 @@ def index(request):
     else:
         form = forms.FormBlog()
 
-    return render(request, "index.html", {'blogtitle' : 'Aнонимный микроблог', 'data': data, 'form': form})
+    return render(request, "index.html", {'blogtitle' : 'Aнонимный микроблог', 'data': data[::-1], 'form': form})
 
 
 

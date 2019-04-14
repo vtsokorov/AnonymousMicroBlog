@@ -53,7 +53,7 @@ var elems = [].filter.call( document.getElementsByTagName("label"), function( in
 
 Array.from(document.getElementsByClassName("time")).forEach(
     function(element, index, array) {
-      element.innerHTML  = moment(element.innerHTML, 'MMMM DD, YYYY, hh:mm').format('DD.MM.YYYY hh:mm');
+      element.innerHTML  = moment(element.innerHTML, 'MMMM DD, YYYY, HH:mm A').format('DD.MM.YYYY HH:mm');
     }
 );
 })();
